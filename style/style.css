@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.produto h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
+
+.disponivel {
+    color: green;
+    font-weight: bold;
+}
+
+.indisponivel {
+    color: red;
+    font-weight: bold;
+}
+
+#form-produto {
+    margin-bottom: 20px;
+}
+
+#form-produto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-produto input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#form-produto button {
+    padding: 8px 12px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
